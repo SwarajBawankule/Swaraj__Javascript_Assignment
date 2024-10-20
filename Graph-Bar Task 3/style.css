@@ -1,0 +1,98 @@
+
+body {
+    font-family: 'Roboto', sans-serif;
+    text-align: center;
+    padding: 20px;
+    background: linear-gradient(to right, #f7f7f7, #e0e0e0);
+}
+
+
+h1 {
+    font-family: 'Roboto', sans-serif;
+    font-size: 2.5em;
+    color: #333;
+}
+
+
+p, label {
+    font-family: 'Open Sans', sans-serif;
+    font-size: 1.2em;
+    color: #555;
+}
+
+input {
+    padding: 10px;
+    width: 200px;
+    border: 2px solid #ccc;
+    border-radius: 5px;
+    margin: 10px 0;
+    font-size: 16px;
+    transition: border-color 0.3s ease;
+}
+
+
+input:focus {
+    border-color: #007bff;
+    outline: none;
+}
+
+
+button {
+    padding: 12px 24px;
+    font-size: 16px;
+    border-radius: 5px;
+    border: none;
+    background-color: #007bff;
+    color: white;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+button:hover {
+    background-color: #0056b3;
+}
+
+
+.green {
+    background-color: green;
+}
+
+.red {
+    background-color: red;
+}
+
+.yellow {
+    background-color: yellow;
+}
+
+
+.container {
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+}
+
+canvas {
+    font-size: 16px; 
+}
+
+.graph-container {
+    position: relative;
+    margin-top: 20px;
+    padding: 20px;
+    border: 2px solid #ccc;
+    background-color: #f9f9f9; 
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+
+input[type="text"] {
+    margin-bottom: 20px;
+}
+
+
+#result {
+    font-size: 1.3em;
+    color: #333;
+    margin-top: 20px;
+}

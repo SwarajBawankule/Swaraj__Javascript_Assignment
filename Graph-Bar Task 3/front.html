@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Wall Visualization</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <h1>Wall Visualization</h1>
+
+    <div class="input-container">
+        <label for="numWalls">Number of Walls:</label>
+        <input type="number" id="numWalls" placeholder="Enter number of walls" />
+        
+        <label for="wallHeights">Height of Walls (separate by #):</label>
+        <input type="text" id="wallHeights" placeholder="Enter heights separated by #" />
+        
+        <button onclick="visualizeWalls()">Visualize Walls</button>
+    </div>
+
+    <div class="graph-container">
+        <canvas id="wallCanvas" width="500" height="400"></canvas>
+    </div>
+
+    <div class="result-container">
+        <p id="leftVisible">Walls visible from the left: </p>
+        <p id="rightVisible">Walls visible from the right: </p>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
